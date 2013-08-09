@@ -24,8 +24,17 @@ gem 'jquery-rails'
 
 group :test, :development do
 	gem 'rspec-rails'
+	gem 'capybara'
 end
 
+group :test do
+	gem 'shoulda-matchers'
+end
+
+
+gem 'devise'
+gem 'sqlite3'
+gem 'simple_form'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

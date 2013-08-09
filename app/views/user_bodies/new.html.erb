@@ -1,0 +1,6 @@
+<%= simple_form_for @user do |f| %>
+	<%= f.input :age, label: 'Age' %>
+	<%= f.input :height_cm, label: 'Height in cm'  %>
+	<%= f.input :weight_kg, label: 'Weight round up in kg' %>
+	<%= f.submit 'I am done' %>
+<% end %>
