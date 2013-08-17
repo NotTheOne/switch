@@ -5,4 +5,6 @@ class ApplicationController < ActionController::Base
     root_path 
   end
 
+  def index
+  end
 end

@@ -6,8 +6,9 @@ class UserBodiesController < ApplicationController
 
 	def create
 		@user = UserBody.new(params[:user_body])
+
 		if @user.save!
-			redirect_to root_path
+			redirect_to results_path
 		else
 			render new
 		end
