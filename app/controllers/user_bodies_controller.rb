@@ -13,5 +13,4 @@ class UserBodiesController < ApplicationController
 			render new
 		end
 	end
-
 end

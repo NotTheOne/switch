@@ -1,4 +1,9 @@
 
-<p>Your ideal weight is</p>
+<h1>Find Out Your Ideal BMI and Weight</h1
+<p>Your BMI is</p>
 
-<%=  %>
+<h1><%= UserBody.last.bmi(@height, @weight) %></h1>
+
+<p>Your Ideal Weight is</p>
+
+<%= @ideal_weight.weight %>

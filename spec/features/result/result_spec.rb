@@ -7,4 +7,5 @@ describe 'shows the result of ideal weight to the user' do
 		expect(page).to have_content('Your ideal weight is')
 	end
 
+	
 end
